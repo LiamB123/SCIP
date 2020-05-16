@@ -3,5 +3,5 @@ from .models import BlogPost
 
 class BlogPostForm(forms.ModelForm):
     class Meta:
-        model = Post
+        model = BlogPost
         fields = ('title', 'content',)
